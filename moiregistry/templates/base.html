@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Math Identifier Base{% endblock %}</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        {% block head_base %}
+
+        {% endblock %}
+    </head>
+
+    <body>
+        {% block head_body %}
+            <p>
+                {% if user.is_authenticated %}
+                    [<a href="{% url 'moi:register' %}">Register new</a>]
+                    {% if user.is_staff %}
+                        - [<a href="/admin/moiregistry/objectregistration/">Admin</a>]
+                    {% endif %}
+                    - [<a href="{% url 'user:logout' %}">Logout</a>]
+
+                {% else %}
+                    [<a href="{% url 'user:login' %}">Login</a>]
+                {% endif %}
+            </p>
+        {% endblock%}
+        <hr />
+
+        {% block content %} {% endblock %}
+    </body>
+</html>

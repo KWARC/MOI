@@ -1,0 +1,48 @@
+{% extends 'base.html' %}
+
+{% block title%}Object {{obj.moi}}{%endblock%}
+
+{% block content %}
+<h1>{{obj.type}}</h1>
+<h2>MOI = {{obj.moi}}</h2>
+{% if obj.approved %}{% else %}<h3>(awaiting approval)</h3>{% endif %}
+
+
+<table style="border: 1px solid black; ">
+    <tr>
+        <td>Type</td>
+        <td>{{obj.type | safe}}</td>
+    </tr>
+    <tr>
+        <td>Keywords</td>
+        <td>{{obj.keywords | safe}}</td>
+    </tr>
+    <tr>
+        <td>Note</td>
+        <td>{{obj.note | safe}}</td>
+    </tr>
+    <tr>
+        <td>ModRef</td>
+        <td>{{obj.moderef | safe}}</td>
+    </tr>
+</table>
+
+<h3>Cites:</h3>
+<p>
+    <ul>
+        {% for c in cites %}
+            <li><a href="{% url 'moi:details' c.subject.moi %}">{{c.subject.moi}}</a></li>
+
+        {% endfor %}
+    </ul>
+</p>
+
+<h3>Cited by:</h3>
+<p>
+    <ul>
+        {% for c in cited %}
+            <li><a href="{% url 'moi:details' c.object.moi %}">{{c.object.moi}}</a></li>
+        {% endfor %}
+    </ul>
+</p>
+{%endblock%}
