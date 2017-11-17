@@ -6,3 +6,7 @@ class ObjectRequestForm(forms.ModelForm):
     class Meta:
         model = ObjectRegistration
         fields = ('type', 'note', 'keywords', 'modref',)
+
+
+class MultipleRequestForm(forms.Form):
+    request_json = forms.CharField(widget=forms.Textarea)
