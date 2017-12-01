@@ -1,6 +1,7 @@
-# MIB
+# Math Identifier Database  (MIB)
 
-Math Identifier Database, a standard django application
+A standard django application that forms an information system
+for Math Object Identifiers; see https://gitlab.com/IMKT/MOI for more information. 
 
 ## Setup
 
