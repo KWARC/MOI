@@ -1,67 +1,67 @@
-[
-	{
-		"MOI": "<MOI:1>",
-		"MODRef": {
-			"DOI": "10.1007/s11511-008-0029-0",
-			"Fragment": "Definition 3.4",
-			"Page": 12,
-			"See": "http://projecteuclid.org/download/pdf_1/euclid.acta/1485891992"
-		},
-		"Type": "Theorem",
-		"BibRef": "Acta Math., 201 (2008), 1–82 p. 13",
-		"Note": "Linear Subspaces of the tangent space of a manifold",
-		"Snippet": {
-			"src": "file://MOI34.pdf",
-			"MediaType": "application/pdf"
-		}
-	},
-	{
-		"MOI": "<MOI:2>",
-		"MODRef": {
-			"DOI": "10.1007/s11511-008-0029-0",
-			"Fragment": "Theorem 3.5",
-			"Page": 13,
-			"See": "http://projecteuclid.org/download/pdf_1/euclid.acta/1485891992"
-		},
-		"Type": "Theorem",
-		"BibRef": "Acta Math., 201 (2008), 1–82 p. 13",
-		"Snippet": {
-			"src": "file://MOI35.pdf",
-			"MediaType": "application/pdf"
-		}
-	},
-	{
-		"MOI": "<MOI:3>",
-		"MODRef": {
-			"DOI": "10.1007/s11511-008-0029-0",
-			"Fragment": "Corollary 3.6",
-			"Page": 13,
-			"See": "http://projecteuclid.org/download/pdf_1/euclid.acta/1485891992"
-		},
-		"Type": "Theorem",
-		"Related-To": "<MOI:2>",
-		"BibRef": "Acta Math., 201 (2008), 1–82 p. 13",
-		"Note": "A condition that a tube manifold is non-degenerate",
-		"Snippet": {
-			"src": "file://MOI36.pdf",
-			"MediaType": "application/pdf"
-		}
-	},
-	{
-		"MOI": "<MOI:4>",
-		"MODRef": {
-			"DOI": "10.1007/s11511-008-0029-0",
-			"Fragment": "Proof of Corollary 3.6",
-			"Page": 13,
-			"See": "http://projecteuclid.org/download/pdf_1/euclid.acta/1485891992"
-		},
-		"Type": "Proof",
-		"Related-To": "<MOI:3>",
-		"BibRef": "Acta Math., 201 (2008), 1–82 p. 13",
-		"Note": "A Proof of Corollary 3.6 (<MOI:3>)",
-		"Snippet": {
-			"src": "file://MOI36p.pdf",
-			"MediaType": "application/pdf"
-		}
-	}
+y[
+    {
+        "MOI": "<MOI:1>",
+        "MODRef": {
+            "DOI": "10.1007/s11511-008-0029-0",
+            "Fragment": "Definition 3.4",
+            "Page": 12,
+            "See": "http://projecteuclid.org/download/pdf_1/euclid.acta/1485891992"
+        },
+        "Type": "Theorem",
+        "BibRef": "Acta Math., 201 (2008), 1–82 p. 13",
+        "Note": "Linear Subspaces of the tangent space of a manifold",
+        "Snippet": {
+            "src": "file://MOI34.pdf",
+            "MediaType": "application/pdf"
+        }
+    },
+    {
+        "MOI": "<MOI:2>",
+        "MODRef": {
+            "DOI": "10.1007/s11511-008-0029-0",
+            "Fragment": "Theorem 3.5",
+            "Page": 13,
+            "See": "http://projecteuclid.org/download/pdf_1/euclid.acta/1485891992"
+        },
+        "Type": "Theorem",
+        "BibRef": "Acta Math., 201 (2008), 1–82 p. 13",
+        "Snippet": {
+            "src": "file://MOI35.pdf",
+            "MediaType": "application/pdf"
+        }
+    },
+    {
+        "MOI": "<MOI:3>",
+        "MODRef": {
+            "DOI": "10.1007/s11511-008-0029-0",
+            "Fragment": "Corollary 3.6",
+            "Page": 13,
+            "See": "http://projecteuclid.org/download/pdf_1/euclid.acta/1485891992"
+        },
+        "Type": "Theorem",
+        "Related-To": "<MOI:2>",
+        "BibRef": "Acta Math., 201 (2008), 1–82 p. 13",
+        "Note": "A condition that a tube manifold is non-degenerate",
+        "Snippet": {
+            "src": "file://MOI36.pdf",
+            "MediaType": "application/pdf"
+        }
+    },
+    {
+        "MOI": "<MOI:4>",
+        "MODRef": {
+            "DOI": "10.1007/s11511-008-0029-0",
+            "Fragment": "Proof of Corollary 3.6",
+            "Page": 13,
+            "See": "http://projecteuclid.org/download/pdf_1/euclid.acta/1485891992"
+        },
+        "Type": "Proof",
+        "Related-To": "<MOI:3>",
+        "BibRef": "Acta Math., 201 (2008), 1–82 p. 13",
+        "Note": "A Proof of Corollary 3.6 (<MOI:3>)",
+        "Snippet": {
+            "src": "file://MOI36p.pdf",
+            "MediaType": "application/pdf"
+        }
+    }
 ]
