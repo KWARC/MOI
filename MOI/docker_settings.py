@@ -10,7 +10,7 @@ import sys
 DEBUG = False
 
 # we want to allow all hosts
-ALLOWED_HOSTS = os.environ.setdefault("DJANGO_ALLOWED_HOSTS", "").split(",")
+ALLOWED_HOSTS = tuple(os.environ.setdefault("DJANGO_ALLOWED_HOSTS", "").split(","))
 
 # all our sessions be safe
 SECRET_KEY = os.environ.setdefault("DJANGO_SECRET_KEY", "")
